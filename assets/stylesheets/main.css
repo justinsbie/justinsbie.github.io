@@ -1,3 +1,23 @@
+@font-face {
+  font-family:"niagara";
+  src: url("../fonts/NIAGSOL.ttf");
+}
+
+@font-face {
+  font-family:"modern";
+  src: url("../fonts/ModernNo20.ttf");
+}
+
+@font-face {
+  font-family:"nunito";
+  src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap")
+}
+
+@font-face {
+  font-family:"kanit";
+  src: url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap")
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,9 +43,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
-  line-height: 1;
-}
+
 ol, ul {
   list-style: none;
 }
@@ -41,3 +59,71 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  line-height: 1;
+  background-color: #8B8B8B;
+}
+
+.header {
+  position: sticky;
+  top: 0
+}
+
+.topnav {
+  margin: 12px
+}
+
+.home_link {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 10px 165px 15px;
+  text-decoration: underline;
+  font-family: "niagara";
+  font-size: 40px;
+  letter-spacing: 6px;
+  border-radius: 40px;
+  background-color: #FFFFFF;
+}
+
+.topnav-right {
+  float: right;
+  display: inline;
+}
+.topnav-right i{
+  margin-left: 12px;
+}
+
+.fa-search {
+  background-color: white;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 10px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;}
+.fa-shopping-cart {
+  background-color: white;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 10px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;}
+.fa-bars {
+  background-color: white;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 10px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;}
+
+.fa-chevron-left {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  height: 16px;
+  width: 16px;
+  border-radius: 40px;}

@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "modern20";
+  src: url("../fonts/ModernNo20.ttf");
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .sidenav a {
+    padding: 20px 8px 25px 60px;
+    text-decoration: none;
+    font-family: "kanit", sans-serif;
+    font-style: oblique;
+    font-size: 25px;
+    color: #929292;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #ffffff;
+  }
+  
+  .sidenav .closebtn {
+    display: grid;
+    font-size: 36px;
+  }
+  
+  #cart_content {
+    display:grid;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 40px;
+    width: 220px;
+    height: 220px;
+    visibility: hidden;
+}
+
+#cart_content img {
+    display:grid;
+    width: 120px;
+    align-self: center;
+}
+
+#cart_content a {
+    width: 180px;
+    align-self: center;
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.cart_text {
+  text-align: center;
+  vertical-align: middle;
+  width: 220px;
+}
+
+.checkout_button {
+  height: max-content;
+  background-color: white;
+  color: black;
+  font-family: "nunito", sans-serif;
+  font-weight: bold;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 40px;
+  align-self: end;
+}
+
+.checkout a {
+  align-self: center;
+  padding-left: 45px;
+}

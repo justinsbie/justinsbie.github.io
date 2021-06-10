@@ -1,0 +1,162 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout_container {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 1vh;
+    margin: 10px;
+    border-radius: 40px;
+}
+
+.checkout_content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 10px;
+}
+
+.checkout_content h1 {
+    margin: 10px;
+    padding-left: 40px;
+    font-family: "nunito", sans-serif;
+}
+
+.shipping_options {
+    display: flex;
+    flex: 1;
+    margin: 10px;
+}
+
+.shipping_options label {
+    background-color: #D2D2D2;
+    color: black;
+    font-family: "nunito", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 35px;
+    border-radius: 40px;
+    text-align: center;
+    flex: 1;
+    transition: all 0.3s;
+  }
+
+.shipping_options input[type="radio"] {
+    display: none;
+  }
+
+.shipping_options input[type="radio"]:checked + label {
+    background-color: black;
+    color: white;
+  }
+
+.address_input {
+    display: flex;
+    background-color: #D2D2D2;
+    color: black;
+    font-family: "nunito", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 35px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+}
+
+.address1 {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.address2 {
+    flex-direction: row;
+    flex: 0.5;
+    display: flex;
+}
+
+.payment_options {
+    display: flex;
+    flex: 1;
+    margin: 10px;
+}
+
+.payment_options label {
+    background-color: #D2D2D2;
+    color: black;
+    font-family: "nunito", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 35px;
+    border-radius: 40px;
+    text-align: center;
+    flex: 1;
+    transition: all 0.3s;
+  }
+
+.payment_options input[type="radio"] {
+    display: none;
+  }
+
+.payment_options input[type="radio"]:checked + label {
+    background-color: black;
+    color: white;
+  }
+
+.payment_input {
+    display: flex;
+    background-color: #D2D2D2;
+    color: black;
+    font-family: "nunito", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 35px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+    width: 92.5%
+}
+
+.payment_info1 {
+    flex-direction: row;
+    flex: 0.5;
+    display: flex;
+}
+
+.payment_info2 {
+    flex-direction: row;
+    flex: 0.5;
+    display: flex;
+}
+
+.confirm_button {
+    height: max-content;
+    align-self: end;
+    float: right;
+}
+
+.confirm_button button {
+    height: max-content;
+    background-color: black;
+    color: white;
+    font-family: "nunito", sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 40px;
+    float: right;
+}
+    
